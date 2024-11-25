@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0066cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .form-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    font-size: 12px;
+    text-decoration: none;
+    color: #0066cc;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  .primary-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .primary-btn:hover {
+    background-color: #004d99;
+  }
+  
+  .alt-action {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .alt-action a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .alt-action a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Buttons */
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .social-btn.facebook {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  
+  .social-btn.google {
+    background-color: #dd4b39;
+    color: #fff;
+  }
+  
+  .social-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      padding: 20px;
+    }
+  
+    .form-container {
+      padding: 20px;
+    }
+  }
+  

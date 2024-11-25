@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="form-header">
+    <h1>User Registration</h1>
+  </header>
+
+  <form id="registrationForm">
+    <label for="fullName">Full Name</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Full Name">
+    <div id="nameError" class="error"></div>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Email">
+    <div id="emailError" class="error"></div>
+    <div id="emailStatus" class="status"></div>
+
+    <label for="password">Password</label>
+    <div class="password-container">
+      <input type="password" id="password" name="password" placeholder="Password">
+      <button type="button" class="show-hide-btn" id="togglePassword">Show</button>
+    </div>
+    <div id="passwordError" class="error"></div>
+    <div id="passwordStrength" class="status"></div>
+    <div class="password-tooltip" id="passwordTooltip">
+      Password must be at least 8 characters, include one uppercase letter, one lowercase letter, one number, and one special character.
+    </div>
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="Phone Number">
+    <div id="phoneError" class="error"></div>
+
+    <button type="submit" class="submit-button" id="submitBtn">Submit</button>
+    <div class="tooltip" id="submitTooltip">Please fill out all fields correctly.</div>
+  </form>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
